@@ -1,0 +1,1 @@
+javascript:!function(d,i){(i=d.createElement('img')).setAttribute('style','z-index:1;position:absolute;top:0;left:50%');i.setAttribute('alt','R-click > Inspect Element > Do your thing.');i.setAttribute('src','https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_octocat.png');d.body.appendChild(i);}(document)
