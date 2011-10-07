@@ -1,6 +1,8 @@
-javascript:!function(d,i){
+javascript:!function(d,i, u){
 	if (i=d.getElementById('DIY-PixelPerfect')){
-		i.src = prompt('Enter_a_new_mockup_URL_or_cancel_to_remove') || i.parentElement.removeChild(i); 
+		if(u=prompt('Enter_a_new_mockup_URL_or_cancel_to_remove')){
+			i.src=u;
+		}else{i.parentElement.removeChild(i);}
 	}else{
 		(i=d.createElement('img')).id='DIY-PixelPerfect';
 		i.setAttribute('style','z-index:1000;display:block;position:absolute;top:0px;left:0px;opacity:.8');
